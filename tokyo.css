@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    background-image: url(tokyobgr.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+.welcomemessage {
+    text-align: center;
+    color: transparent;
+    margin-top: 50px;
+    -webkit-text-stroke: 2px #e180bf;
+    cursor: pointer;
+    font-size: 30px;
+   animation: wel 4s ease;
+}
+@keyframes wel {
+    0% { transform: translate(-50%);}
+    100% {  transform: translate(5%, 70% ); 
+    opacity: 0;}
+}
+
+.welcomemessage:hover {
+    color: #983e7d;
+    -webkit-text-stroke: 0;
+}
+.navbar{
+    height: 800vh;
+    padding: 0;
+}
+.navbar logo {
+    float: center;
+    padding: 15px;
+    padding-top: 35px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 60px;
+    padding: 10px;
+    
+
+}
+li{
+    
+    margin: 10px;
+    padding: 10px;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+color: rgb(231, 232, 232);
+letter-spacing: 3px;
+border: 3px solid  #983e7d ;
+padding: 20px;
+border-radius: 40px;
+margin: -20px;
+box-shadow: beige;
+}
+
+ul:hover li:hover a:hover{
+    color: rgb(49, 94, 140);
+    text-decoration: underline;
+    background-color:  #e180bf;
+    
+}
+.contenue{ 
+    border: 1px solid gray ;
+    background-color: rgba(128, 128, 128, 0.402);
+    border-radius: 14px;
+    margin: 10px;
+}
+
+.pol{
+        font-size: 20px;
+        color: #fff;
+        font-family: Bradley Hand, cursive;
+        margin-bottom: 5%;
+        padding-top: 10px;
+        padding-left: 15px;
+        font-weight: 800;
+    }
+.image1{
+    background-image: url(tokyo1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 460px;
+    float: left;
+    border-radius: 14px;
+    margin:0 10px 0 0 ;
+}
+.vid2{
+    height: 400px;
+    float: right;
+    border-radius: 14px;
+    margin:0 0 5px 0px;
+}

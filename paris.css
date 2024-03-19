@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    background-image: url(paris-6384758.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+   
+    
+
+.welcomemessage {
+    text-align: center;
+    color: transparent;
+    transform: translate(5%, 40%);
+    -webkit-text-stroke: 2px #fff;
+    cursor: pointer;
+    transition: all 4s ease;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 100;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomemessage:hover {
+    color: #fff;
+    -webkit-text-stroke: 0;
+}
+.navbar{
+    height: 800vh;
+    padding: 0;
+}
+.navbar logo {
+    float: center;
+    padding: 15px;
+    padding-top: 35px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 60px;
+    padding: 10px;
+    
+
+}
+li{
+    
+    margin: 10px;
+    padding: 10px;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+color: rgb(231, 232, 232);
+letter-spacing: 3px;
+border: 3px solid rgba(196, 196, 159, 0.664) ;
+padding: 20px;
+border-radius: 40px;
+margin: -20px;
+box-shadow: beige;
+}
+
+ul:hover li:hover a:hover{
+    color: rgb(49, 94, 140);
+    text-decoration: underline;
+    background-color: rgba(196, 196, 159, 0.664);
+    
+}
+.contenue {
+    border: 1px solid blanchedalmond;
+    border-radius: 14PX;
+    margin-bottom: 120vh;
+    
+}
+@keyframes ettirement {
+    0% { transform: scale(1);}
+    50% { transform: scale(1.25);}
+    100% { transform: scale(1);}
+}
+.img1 {
+    width: 50%;
+    border-radius: 14px;
+    float: left;
+    margin: 0 20px 10px 0;
+    transition: 4s ease-in;
+    
+    
+}
+.img1:hover {
+    scale: 3;
+}
+.pol {
+    font-size: 20px;
+    color: #fff;
+    font-family: Bradley Hand, cursive,serif;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-weight: 800;
+    font-style: italic
+}
+
+.milieu {
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        margin: 5vh;
+        margin-bottom: 450vh;
+}
+.vid1{
+    border-radius: 14px;
+    float: right;
+    
+}
+
